@@ -1,6 +1,6 @@
 {
-  "name": "helloworldtest",
-  "displayName": "helloWorld",
+  "name": "vscode-extension-switch-view",
+  "displayName": "switchView",
   "repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-sample",
   "publisher": "bhwa233",
   "description": "",
