@@ -1,28 +1,181 @@
 {
-  "name": "vscode-extension-switch-view",
-  "displayName": "ViewSwitch",
-  "description": "HelloWorld example for VS Code",
-  "version": "0.0.1",
+  "name": "switch-tab",
+  "displayName": "switchTab",
+  "description": "quickly switch Tab after mark tabs",
+  "version": "1.0.0",
   "publisher": "bhwa233",
   "repository": "https://github.com/lxw15337674/vscode-extension-switch-tab",
   "engines": {
-    "vscode": "^1.72.0"
-  }, 
+    "vscode": "^1.71.0"
+  },
   "categories": [
     "Other"
   ],
- "activationEvents": [
-		"onCommand:extension.helloWorld"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World" 
-			}
-		]
-	},
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Tabs API Sample",
+      "id": "tabsSample",
+      "properties": {
+        "tabs.maxInactiveTime": {
+          "default": 30,
+          "description": "The number of seconds before closing inactive tabs",
+          "type": "number"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "tabSwitch.mark1",
+        "key": "ctrl+1",
+        "mac": "cmd+1"
+      },
+      {
+        "command": "tabSwitch.mark2",
+        "key": "ctrl+2",
+        "mac": "cmd+2"
+      },
+      {
+        "command": "tabSwitch.mark3",
+        "key": "ctrl+3",
+        "mac": "cmd+3"
+      },
+      {
+        "command": "tabSwitch.mark4",
+        "key": "ctrl+4",
+        "mac": "cmd+4"
+      },
+      {
+        "command": "tabSwitch.mark5",
+        "key": "ctrl+5",
+        "mac": "cmd+5"
+      },
+      {
+        "command": "tabSwitch.mark6",
+        "key": "ctrl+6",
+        "mac": "cmd+6"
+      },
+      {
+        "command": "tabSwitch.mark7",
+        "key": "ctrl+7",
+        "mac": "cmd+7"
+      },
+      {
+        "command": "tabSwitch.mark8",
+        "key": "ctrl+8",
+        "mac": "cmd+8"
+      },
+      {
+        "command": "tabSwitch.mark9",
+        "key": "ctrl+9",
+        "mac": "cmd+9"
+      },
+      {
+        "command": "tabSwitch.switch1",
+        "key": "alt+1",
+        "mac": "alt+1",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch2",
+        "key": "alt+2",
+        "mac": "alt+2",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch3",
+        "key": "alt+3",
+        "mac": "alt+3",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch4",
+        "key": "alt+4",
+        "mac": "alt+4",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch5",
+        "key": "alt+5",
+        "mac": "alt+5",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch6",
+        "key": "alt+6",
+        "mac": "alt+6",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch7",
+        "key": "alt+7",
+        "mac": "alt+7",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch8",
+        "key": "alt+8",
+        "mac": "alt+8",
+        "when": ""
+      },
+      {
+        "command": "tabSwitch.switch9",
+        "key": "alt+9",
+        "mac": "alt+9",
+        "when": ""
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "markdown.showPreview",
+          "alt": "markdown.showPreviewToSide",
+          "group": "navigation"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "ViewSwitch.helloWorld",
+          "group": "myGroup@1"
+        },
+        {
+          "command": "markdown.showPreview",
+          "alt": "markdown.showPreviewToSide",
+          "group": "navigation"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "package-explorer",
+          "title": "Package Explorer",
+          "icon": "media/dep.svg"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "ViewSwitch.helloWorld",
+        "title": "Hello World",
+        "category": "Hello"
+      },
+      {
+        "command": "tabSwitch.mark1",
+        "title": "mark1",
+        "category": "tabSwitch"
+      },
+      {
+        "command": "tabSwitch.switch",
+        "title": "switch1",
+        "category": "tabSwitch"
+      }
+     
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
@@ -35,7 +188,7 @@
     "@types/glob": "^8.0.0",
     "@types/mocha": "^10.0.0",
     "@types/node": "16.11.7",
-    "@types/vscode": "^1.72.0",
+    "@types/vscode": "^1.71.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "@vscode/test-electron": "^2.1.5",

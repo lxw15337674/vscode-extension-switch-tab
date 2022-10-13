@@ -1,11 +1,11 @@
-# switchView
+# switchTab
 
 
 ## Features
 
-Add keyboard shortcuts to switch views.
+Add keyboard shortcuts to switch Tabs.
 
-quickly switch between views，No mouse needed!
+quickly switch Tab after mark tabs
 
 ★ command shortcut 
 
@@ -39,14 +39,11 @@ Users appreciate release notes as you update your extension.
 
 Initial release of ...
 
-### 1.0.1
+### todo 
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
+1. 增加左侧视图显示。
+2. 增加资源管理器右键标记。
+3. 增加右键菜单标记。
 
 
 ## License

@@ -95,7 +95,7 @@
   resolved "https://registry.npmmirror.com/@types/node/-/node-16.11.7.tgz#36820945061326978c42a01e56b61cd223dfdc42"
   integrity sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==
 
-"@types/vscode@^1.72.0":
+"@types/vscode@^1.71.0":
   version "1.72.0"
   resolved "https://registry.npmmirror.com/@types/vscode/-/vscode-1.72.0.tgz#56447ca2eaca34f0d0797c8bb9e51de132f6bb0a"
   integrity sha512-WvHluhUo+lQvE3I4wUagRpnkHuysB4qSyOQUyIAS9n9PYMJjepzTUD8Jyks0YeXoPD0UGctjqp2u84/b3v6Ydw==
