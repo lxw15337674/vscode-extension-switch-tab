@@ -1,33 +1,28 @@
 {
   "name": "vscode-extension-switch-view",
   "displayName": "ViewSwitch",
-  "repository": "https://github.com/lxw15337674/vscode-extension-switch-tab",
-  "publisher": "bhwa233",
-  "description": "",
+  "description": "HelloWorld example for VS Code",
   "version": "0.0.1",
+  "publisher": "bhwa233",
+  "repository": "https://github.com/lxw15337674/vscode-extension-switch-tab",
   "engines": {
     "vscode": "^1.72.0"
   }, 
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.helloWorld",
-    "onCommand:extension.getTime"
-  ],
-  "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "extension.getTime",
-        "title": "获取时间"
-      }
-    ]
-  },
+ "activationEvents": [
+		"onCommand:extension.helloWorld"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World" 
+			}
+		]
+	},
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
