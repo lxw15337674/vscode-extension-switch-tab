@@ -2,7 +2,7 @@
   "name": "switch-tab",
   "displayName": "switchTab",
   "description": "quickly switch Tab after mark tabs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "bhwa233",
   "repository": "https://github.com/lxw15337674/vscode-extension-switch-tab",
   "engines": {
@@ -14,6 +14,7 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "icon": "media/icon.png",
   "main": "./out/extension.js",
   "contributes": {
     "configuration": {
@@ -127,53 +128,6 @@
         "mac": "alt+9",
         "when": ""
       }
-    ],
-    "menus": {
-      "editor/context": [
-        {
-          "command": "markdown.showPreview",
-          "alt": "markdown.showPreviewToSide",
-          "group": "navigation"
-        }
-      ],
-      "editor/title": [
-        {
-          "command": "ViewSwitch.helloWorld",
-          "group": "myGroup@1"
-        },
-        {
-          "command": "markdown.showPreview",
-          "alt": "markdown.showPreviewToSide",
-          "group": "navigation"
-        }
-      ]
-    },
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "package-explorer",
-          "title": "Package Explorer",
-          "icon": "media/dep.svg"
-        }
-      ]
-    },
-    "commands": [
-      {
-        "command": "ViewSwitch.helloWorld",
-        "title": "Hello World",
-        "category": "Hello"
-      },
-      {
-        "command": "tabSwitch.mark1",
-        "title": "mark1",
-        "category": "tabSwitch"
-      },
-      {
-        "command": "tabSwitch.switch",
-        "title": "switch1",
-        "category": "tabSwitch"
-      }
-     
     ]
   },
   "scripts": {

@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
 				findOrOpenEditor(uri);
 			} else {
 				vscode.window.showInformationMessage(`No${i} tab is not marked`);
-			}
+			} 
 		}));
 	}
 }

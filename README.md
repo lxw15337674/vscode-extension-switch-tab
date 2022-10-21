@@ -14,21 +14,6 @@ quickly switch Tab after mark tabs
 
 ★ about shortcuts need to set the command shortcut keys by self
 
-## Quick Start
-
-todo
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
 
 
 ## Release Notes
@@ -37,13 +22,15 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
+1. add mark and switch by keyboard.
 
-### todo 
+## todo 
 
-1. 增加左侧视图显示。
-2. 增加资源管理器右键标记。
-3. 增加右键菜单标记。
+1. add left viewer to  show marked tabs.
+
+2. add context menu to mark tab.
+
+   
 
 
 ## License
