@@ -1,18 +1,29 @@
 # switchTab
 
-
-## Features
-
 Add keyboard shortcuts to switch Tabs.
 
-quickly switch Tab after mark tabs
+[vscode marketplace link](https://marketplace.visualstudio.com/items?itemName=bhwa233.switch-tab)
+
+## Features
 
 ★ command shortcut 
 
 - marker tab
 - switch marked tab
 
-★ about shortcuts need to set the command shortcut keys by self
+## Usages
+
+1. Set VSCode shortcuts like this。
+
+![image-20240109105615589](E:\code\vscode-extension-switch-tab\media\image-20240109105615589.png)
+
+2. Press the shortcut key at the tab you want to mark.
+
+![image-20240109110053471](E:\code\vscode-extension-switch-tab\media\image-20240109110053471.png)
+
+3. Use the shortcut keys to switch between marked tab。
+
+![image-20240109110510564](E:\code\vscode-extension-switch-tab\media\image-20240109110510564.png)
 
 
 
