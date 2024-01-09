@@ -15,15 +15,15 @@ Add keyboard shortcuts to switch Tabs.
 
 1. Set VSCode shortcuts like this。
 
-![image-20240109105615589](E:\code\vscode-extension-switch-tab\media\image-20240109105615589.png)
+![image-20240109105615589](./media/image-20240109105615589.png)
 
 2. Press the shortcut key at the tab you want to mark.
 
-![image-20240109110053471](E:\code\vscode-extension-switch-tab\media\image-20240109110053471.png)
+![image-20240109110053471](./media/image-20240109110053471.png)
 
 3. Use the shortcut keys to switch between marked tab。
 
-![image-20240109110510564](E:\code\vscode-extension-switch-tab\media\image-20240109110510564.png)
+![image-20240109110510564](./media/image-20240109110510564.png)
 
 
 
